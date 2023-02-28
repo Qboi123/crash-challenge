@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.example.template.mixin.common",
+  "package": "mc.qboi.damagecrash.mixin.forge",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "TitleScreenMixin"
+
   ],
   "client": [
+
   ],
   "injectors": {
     "defaultRequire": 1

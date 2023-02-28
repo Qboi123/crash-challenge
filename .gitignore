@@ -123,3 +123,9 @@ run/
 /mappings/
 /fabric/dependencies/
 /.idea/jarRepositories.xml
+/executable/CrashWindows/.vs/
+/executable/CrashWindows/x64/
+/executable/CrashWindows/x86/
+/executable/CrashWindows/CrashWindows/x64/
+/executable/CrashWindows/CrashWindows/x86/
+/executable/CrashWindows/CrashWindows/*.user

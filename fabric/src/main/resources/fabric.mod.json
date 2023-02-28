@@ -1,19 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "template",
+  "id": "damage_crash",
   "version": "${version}",
-  "name": "Template Mod",
-  "description": "A descriptive explanation on what this mod does.",
+  "name": "Crash Challenge",
+  "description": "What if taking damage caused Windows to crash?",
   "authors": [
-    "Me"
+    "Qboi"
   ],
   "contributors": [
 
   ],
   "contact": {
-    "website": "https://example.com",
-    "repo": "https://github.com/Ultreon/kotlin-architectury-template",
-    "issues": "https://github.com/Ultreon/kotlin-architectury-template/issues"
+    "repo": "https://github.com/Qboi123/crash-challenge"
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/template/icon.png",
@@ -22,25 +20,25 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "com.example.template.fabric.TemplateFabric"
+        "value": "mc.qboi.damagecrash.fabric.DamageCrashFabric"
       }
     ],
     "client": [
       {
         "adapter": "kotlin",
-        "value": "com.example.template.fabric.TemplateFabricClient"
+        "value": "mc.qboi.damagecrash.fabric.DamageCrashFabricClient"
       }
     ],
     "server": [
       {
         "adapter": "kotlin",
-        "value": "com.example.template.fabric.TemplateFabricServer"
+        "value": "mc.qboi.damagecrash.fabric.DamageCrashFabricServer"
       }
     ]
   },
   "mixins": [
-    "template.mixins.json",
-    "template-common.mixins.json"
+    "damage-crash.mixins.json",
+    "damage-crash-common.mixins.json"
   ],
   "recommends": {
     "modmenu": ">=5.0.0"
